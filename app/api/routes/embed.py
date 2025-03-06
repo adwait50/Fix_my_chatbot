@@ -13,3 +13,4 @@ async def embed_texts(texts: List[str]):
         return {"embeddings": embeddings}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e)) 
+        

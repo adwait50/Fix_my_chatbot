@@ -27,3 +27,5 @@ chroma_data/
 *.egg-info/
 dist/
 build/
+
+.specstory/

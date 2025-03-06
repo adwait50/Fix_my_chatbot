@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.core.config import settings
-from app.api.routes import test, embed
+from app.api.routes import test, embed, test_scenario
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -10,6 +10,7 @@ app = FastAPI(
 # Include routers
 app.include_router(test.router, prefix=settings.API_V1_STR, tags=["test"])
 app.include_router(embed.router, prefix=settings.API_V1_STR, tags=["embed"])
+app.include_router(test_scenario.router, prefix=settings.API_V1_STR, tags=["test_scenario"])
 
 @app.get("/")
 async def root():
