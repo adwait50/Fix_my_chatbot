@@ -1,14 +1,13 @@
 # UniThrift
 
 A simple student-focused thrift marketplace.
-
 The idea is pretty straightforward — students usually have stuff they don’t need anymore (books, electronics, hostel items, etc.), and someone else probably needs exactly that. UniThrift tries to make that exchange easier.
 
 > This project is still in progress.
 
 ---
 
-## 🚀 What it does (so far)
+##  What it does (so far)
 
 - List items for sale
 - Browse available products
@@ -19,7 +18,7 @@ More features are being added gradually.
 
 ---
 
-## 🧠 Why this project?
+##  Why this project?
 
 Most platforms like OLX or Facebook Marketplace are too broad for students.
 
@@ -32,7 +31,7 @@ Also, it’s a good way to explore building a real-world full-stack app.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Frontend: React  
 - Styling: Tailwind CSS (if you're using it, else change)  
@@ -42,7 +41,7 @@ Also, it’s a good way to explore building a real-world full-stack app.
 
 ---
 
-## 📦 Running locally
+##  Running locally
 
 Clone the repo:
 
