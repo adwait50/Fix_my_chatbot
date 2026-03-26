@@ -1,43 +1,56 @@
-# UniThrift
+# Fix My Chatbot
 
-A simple student-focused thrift marketplace.
-The idea is pretty straightforward — students usually have stuff they don’t need anymore (books, electronics, hostel items, etc.), and someone else probably needs exactly that. UniThrift tries to make that exchange easier.
+A small project focused on improving and debugging chatbot behavior.
+The goal is simple — take a chatbot that gives weird / incorrect / low-quality responses and try to make it better step by step.
 
-> This project is still in progress.
-
----
-
-##  What it does (so far)
-
-- List items for sale
-- Browse available products
-- Basic UI for a marketplace feel
-- Focus on student use-case (affordable + local exchange)
-
-More features are being added gradually.
+> This project is still under development.
 
 ---
 
-##  Why this project?
+##  What this is about
 
-Most platforms like OLX or Facebook Marketplace are too broad for students.
+Chatbots often:
+- hallucinate
+- give vague answers
+- miss context
+- or just sound... off
 
-This is more:
-- campus-oriented  
-- simpler  
-- actually useful for daily student life  
+This project is an attempt to:
+- analyze those problems  
+- experiment with fixes  
+- and build a more reliable chatbot experience  
 
-Also, it’s a good way to explore building a real-world full-stack app.
+---
+
+##  Idea behind it
+
+Instead of building a chatbot from scratch, this focuses on:
+
+> “How do you *fix* a chatbot that already exists?”
+
+That includes:
+- prompt improvements  
+- response filtering  
+- better context handling  
+- structured outputs  
 
 ---
 
 ##  Tech Stack
 
-- Frontend: React  
-- Styling: Tailwind CSS (if you're using it, else change)  
-- Backend / DB: Firebase (Auth + Firestore)  
+- JavaScript / TypeScript  
+- Node.js  
+- (Add whatever you're using: OpenAI API / other LLM APIs / Express / etc.)
 
-*(will probably evolve as the project grows)*
+*(this may change as the project evolves)*
+
+---
+
+##  Current Features (WIP)
+
+- Basic chatbot interaction setup  
+- Response testing / iteration  
+- Early-stage prompt tuning  
 
 ---
 
@@ -46,5 +59,5 @@ Also, it’s a good way to explore building a real-world full-stack app.
 Clone the repo:
 
 ```bash
-git clone https://github.com/adwait50/Uni_Thrift.git
-cd Uni_Thrift
+git clone https://github.com/adwait50/Fix_my_chatbot.git
+cd Fix_my_chatbot
